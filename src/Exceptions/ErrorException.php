@@ -69,24 +69,6 @@ class ErrorException extends ApiException
     }
 
     /**
-     * Returns Request Property.
-     */
-    public function getRequestProperty(): ?array
-    {
-        return $this->requestProperty;
-    }
-
-    /**
-     * Sets Request Property.
-     *
-     * @maps request
-     */
-    public function setRequestProperty(?array $requestProperty): void
-    {
-        $this->requestProperty = $requestProperty;
-    }
-
-    /**
      * Converts the ErrorException object to a human-readable string representation.
      *
      * @return string The string representation of the ErrorException object.
