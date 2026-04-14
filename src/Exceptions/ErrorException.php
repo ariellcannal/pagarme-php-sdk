@@ -28,11 +28,6 @@ class ErrorException extends ApiException
     private $errors;
 
     /**
-     * @var array|null
-     */
-    private $requestProperty;
-
-    /**
      * Returns Message Property.
      */
     public function getMessageProperty(): ?string
@@ -66,24 +61,6 @@ class ErrorException extends ApiException
     public function setErrors(?array $errors): void
     {
         $this->errors = $errors;
-    }
-
-    /**
-     * Returns Request Property.
-     */
-    public function getRequestProperty(): ?array
-    {
-        return $this->requestProperty;
-    }
-
-    /**
-     * Sets Request Property.
-     *
-     * @maps request
-     */
-    public function setRequestProperty(?array $requestProperty): void
-    {
-        $this->requestProperty = $requestProperty;
     }
 
     /**
