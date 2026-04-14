@@ -1,6 +1,6 @@
 {
-    "name": "pagarme/pagarme-php-sdk",
-    "description": "Pagarme API",
+    "name": "ariellcannal/pagarme-php-sdk",
+    "description": "Pagarme API Fork",
     "type": "library",
     "keywords": [
         "PagarmeApiSDK",
